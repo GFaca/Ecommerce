@@ -9,9 +9,8 @@ import { AvaliacaoComponent } from './components/avaliacao/avaliacao.component';
 import { HomeComponent } from './components/home/home.component';
 import { RequestComponent } from './components/request/request.component';
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
-import { ProductReviewComponent } from './components/product-review/product-review.component';
 import {MatBadgeModule} from '@angular/material/badge';
-import {MatSlider, MatSliderModule} from '@angular/material/slider';
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -21,14 +20,13 @@ import {MatSlider, MatSliderModule} from '@angular/material/slider';
     HomeComponent,
     RequestComponent,
     ProductDetailsComponent,
-    ProductReviewComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatBadgeModule,
-    MatSlider,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

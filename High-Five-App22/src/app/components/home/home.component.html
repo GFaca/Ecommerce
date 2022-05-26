@@ -29,11 +29,13 @@
       <div class="icons">
         <button type="button" class="btn position-relative bi bi-bag-plus">
           </button>
-         <button type="button" class="btn position-relative bi bi-bell">
+
+         <button type="button" class="btn position-relative bi bi-bell"  [routerLink]="['/Avaliacao']">
             <span class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle">
               <span class="visually-hidden"></span>  <!-- BOTAO DE ALERTA CASO HAJA ATIVIDADE PENDENTES -->
             </span>
           </button>
+          
          <button type="button" class="btn position-relative bi bi-person-fill">
           </button>
      </div>
@@ -43,3 +45,4 @@
     </div>
   </nav>
 
+  
